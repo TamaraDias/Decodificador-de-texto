@@ -58,7 +58,7 @@
     }
 
     .grid2 {
-        height: auto; /* Ajuste para altura responsiva */
+        height: auto; 
         width: 33rem;
     }
 }
