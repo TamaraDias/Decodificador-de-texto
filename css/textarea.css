@@ -16,21 +16,21 @@
     .textarea {
         font-size: 1.5rem;
         width: 22rem;
-        height: auto; /* Ajuste para altura responsiva */
+        height: auto; 
     }
 }
 
 @media (max-width: 489px) {
     .textarea {
         width: 15rem;
-        height: auto; /* Ajuste para altura responsiva */
+        height: auto; 
     }
 }
 
 @media (max-width: 375px) {
     .textarea {
         width: 10rem;
-        height: auto; /* Ajuste para altura responsiva */
-        font-size: 1.2rem; /* Ajuste o tamanho da fonte se necessário */
+        height: auto; 
+        font-size: 1.2rem;
     }
 }
