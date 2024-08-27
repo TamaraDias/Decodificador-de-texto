@@ -1,0 +1,17 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0; /* Remove a margem padrão */
+    color: #141414;
+    background-color: #F3F5FC;
+    text-align: center;
+}
+
+p {
+    margin: 0; /* Remover a margem padrão dos parágrafos */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

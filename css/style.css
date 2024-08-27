@@ -1,0 +1,12 @@
+/* Importando a fonte primeiro */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Importando outros arquivos CSS */
+@import './global.css';
+@import './header.css';
+@import './textarea.css';
+@import './main.css';
+@import './informacoes.css';
+@import './btn.css';
+@import './mensagem.css';
+@import './boxAlert.css';

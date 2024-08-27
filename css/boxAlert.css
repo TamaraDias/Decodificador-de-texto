@@ -1,0 +1,17 @@
+.box-alert {
+    width: 200px;
+    background-color: #E9ECF8;
+    color: #0A3871;
+    line-height: 120%;
+    padding: 2.4rem;
+    border: 1px solid #757FB2;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 1rem;
+    left: 8rem;
+    z-index: 1;
+    gap: 15px;
+  }

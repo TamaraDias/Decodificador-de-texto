@@ -1,0 +1,63 @@
+/* Estilo global dos botões */
+.botoes {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 280px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid #0A3871;
+    border-radius: 1.4rem;
+    cursor: pointer;
+}
+
+/* Estilo individual de cada botão */
+.btn-criptografar {
+    color: #ffffff;
+    background-color: #0A3871;
+}
+
+.btn-descriptografar {
+    color: #0A3871;
+}
+
+/* Botão de copiar */
+.btn-copiar {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    width: 280px;
+    height: 70px;
+    background-color: transparent;
+    border: 1px solid #0A3871;
+    border-radius: 1.4rem;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+/* configurar o botao copiar, configurar a caixa de saída para que o texto fique dentro dela... */
+
+/* Estilo do container dos botões */
+.btn {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 973px) {
+    .btn {
+        justify-content: center;
+        margin-bottom: 20px;        
+    }
+}
+
+@media (max-width: 658px) {
+    .btn {
+        display: grid;
+    }
+}
+
+@media (max-width: 375px) {
+    .btn {
+        width: 100%; /* Ajuste para largura total em dispositivos muito pequenos */
+    }
+}

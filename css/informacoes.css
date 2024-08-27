@@ -1,0 +1,18 @@
+/* Informações contém: uma imagem de exclamação e um parágrafo informativo abaixo do textarea */
+.informacoes {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem; /* Usar unidade relativa para melhor responsividade */
+    font-size: 0.7rem;
+}
+
+.informacoes p {
+    padding-left: 0.625rem; /* Usar unidade relativa para consistência */
+    color: #343A40;
+}
+
+@media (max-width: 973px) {
+    .informacoes {
+        justify-content: center;
+    }
+}

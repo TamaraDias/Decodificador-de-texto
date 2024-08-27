@@ -1,0 +1,36 @@
+.textarea {
+    width: 33rem;
+    height: 15rem;
+    background-color: transparent;
+    border: none;
+    padding: 2rem 1.5rem;
+    resize: none;
+    border-radius: 2.2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    color: #0A3871;
+}
+
+/* Ajustes para tamanhos de tela menores */
+@media (max-width: 658px) {
+    .textarea {
+        font-size: 1.5rem;
+        width: 22rem;
+        height: auto; /* Ajuste para altura responsiva */
+    }
+}
+
+@media (max-width: 489px) {
+    .textarea {
+        width: 15rem;
+        height: auto; /* Ajuste para altura responsiva */
+    }
+}
+
+@media (max-width: 375px) {
+    .textarea {
+        width: 10rem;
+        height: auto; /* Ajuste para altura responsiva */
+        font-size: 1.2rem; /* Ajuste o tamanho da fonte se necessário */
+    }
+}

@@ -1,0 +1,70 @@
+/* .grid2 se refere a segunda caixa da página, com a img do desenho e o p de "nenhuma mensagem..." */
+
+.grid2 {
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 1.5rem;
+    text-align: center;
+    height: 460px;
+    width: 330px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título da mensagem */
+.mensagem-titulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343A40;
+    margin: 20px 0;
+}
+
+/* Texto da mensagem */
+.mensagem-texto {
+    color: #495057;
+}
+
+/* Texto de saída do grid2 */
+.text-output {
+    width: 20rem;
+    color: #808080;
+    font-size: 2.2rem;
+    line-height: 150%;
+    margin-bottom: 3rem;
+}
+
+/* Breakpoints de responsividade */
+
+@media (max-width: 1050px) {
+    .grid2 {
+        width: 525px;
+        margin-top: 30px;
+    }
+
+    .text-output {
+        width: 380px;
+    }
+}
+
+@media (max-width: 973px) {
+    .man {
+        display: none;
+    }
+
+    .mensagem-titulo {
+        font-size: 1.2rem;
+    }
+
+    .grid2 {
+        height: auto; /* Ajuste para altura responsiva */
+        width: 33rem;
+    }
+}
+
+@media (max-width: 489px) {
+    .grid2 {
+        max-width: 15rem;
+    }
+}
