@@ -1,13 +1,13 @@
 body {
     font-family: 'Inter', sans-serif;
-    margin: 0; /* Remove a margem padrão */
+    margin: 0; 
     color: #141414;
     background-color: #F3F5FC;
     text-align: center;
 }
 
 p {
-    margin: 0; /* Remover a margem padrão dos parágrafos */
+    margin: 0; 
 }
 
 img {
