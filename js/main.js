@@ -59,7 +59,7 @@ const selectors = {
     if (main) {
       main.append(elements.alertBox);
       clearTimeout(alertBoxTimeout);
-      alertBoxTimeout = setTimeout(hideAlertBox, 10000); // 10 segundos
+      alertBoxTimeout = setTimeout(hideAlertBox, 10000); 
     }
   }
   
