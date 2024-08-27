@@ -30,10 +30,8 @@
     border: 1px solid #0A3871;
     border-radius: 1.4rem;
     cursor: pointer;
-    margin-top: 10px; /* Espaço acima do botão */
+    margin-top: 10px;
 }
-
-/* configurar o botao copiar, configurar a caixa de saída para que o texto fique dentro dela... */
 
 /* Estilo do container dos botões */
 .btn {
@@ -58,6 +56,6 @@
 
 @media (max-width: 375px) {
     .btn {
-        width: 100%; /* Ajuste para largura total em dispositivos muito pequenos */
+        width: 100%;
     }
 }
